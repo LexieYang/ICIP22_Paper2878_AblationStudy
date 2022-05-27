@@ -43,3 +43,5 @@ Instead of supervising the generation of whole images, our network focuses only 
 
 
 The qualitative comparison between two ways of supervision is provided in *Figure 3*. The results from the local supervision have less color diffusion and structure distortion. However, for the results from full supervision, the recovered pixels have larger color discrepancy with the surrounding unmasked pixels when comparing the third and forth rows in *Figure 3(a)*, *Figure 3(b)*, *Figure 3(d)* and *Figure 3(f)*. In addition, when the third and forth rows of *Figure 3(a)* and *Figure 3(d)* are compared, it can be seen that the local supervision strategy can help the network generate more plausible and clear texture, such as the texture of nose and mouth.
+
+
